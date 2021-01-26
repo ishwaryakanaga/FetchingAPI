@@ -1,0 +1,130 @@
+h2{
+    font-family: script MT ;
+   text-align: center;
+}
+.header{
+    width:100%;
+    display:flex;
+    border-bottom: 2px solid lightgrey;
+    position:fixed;
+    top:0;
+    background-color: #f7f7f2;
+}
+.profile-container{
+    margin-top:60px;
+    display:flex;
+    border-bottom: 3px solid lightgrey;
+}
+.border-item{
+    padding: 20px;
+}
+.heading{
+    padding-left:600px;
+    margin-top:15px;
+}
+.toplogo{
+    float:right;
+    padding-left: 650px;
+    margin-top:20px;
+}
+@media screen and (max-width:700px){
+    .toplogo{
+        padding-left:130px;
+    }
+    .heading{
+        padding-left:100px;
+    }
+    .profile{
+        height:150px;
+    }
+    img{
+        width:100%;
+    }
+    .border-item{
+        padding:20px;
+        padding-left:15px;
+    }
+    .border-bookmark{
+      margin-left:200px;
+      padding:20px;
+    }
+    .home{
+        margin-left:20px;
+    }
+    .search{
+        margin-left:60px;
+    }
+    .plus{
+        margin-left:70px;
+    }
+    .heart{
+        margin-left:80px;
+    }
+    .user{
+        margin-left:100px;
+    }
+}
+.cam{
+   padding-top:20px;
+   padding-left:20px;
+   size:0.875em;
+}
+.bottom{
+    display:flex;
+    border-bottom: 3px solid lightgrey;
+
+}
+.main-content{
+    padding:10px;
+}
+.profile{
+    margin-top:20px;
+    padding-left:20px;
+}
+.placeholder{
+    color:#333;
+    margin-left:10px;
+}
+.plus-circle{
+    margin-left:50px;
+
+}
+.title,.body{
+    margin-left:20px;
+}
+.foot{
+    position:fixed;
+    bottom:0;
+    display:flex;
+    background-color: lightgrey;
+    opacity:0.6;
+}
+@media screen and (min-width:700px){
+
+    .border-bookmark{
+        padding:20px;
+        margin-left:1230px;
+    }
+    img{
+        width:1500px;
+    }
+
+.home{
+    margin-left:20px;
+}
+.search{
+    margin-left:350px;
+}
+.plus{
+    margin-left:350px;
+}
+.heart{
+    margin-left:350px;
+}
+.user{
+    margin-left:300px;
+}
+}    
+    
+   
+
